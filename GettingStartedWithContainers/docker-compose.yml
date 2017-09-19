@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  gettingstartedwithcontainers:
+    image: gettingstartedwithcontainers
+    build:
+      context: ./GettingStartedWithContainers
+      dockerfile: Dockerfile

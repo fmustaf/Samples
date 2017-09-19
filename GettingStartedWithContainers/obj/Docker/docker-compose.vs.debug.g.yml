@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  gettingstartedwithcontainers:
+    image: gettingstartedwithcontainers:dev
+    build:
+      args:
+        source: obj/Docker/empty/
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - NUGET_PACKAGES=C:\.nuget\packages
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_gettingstartedwithcontainers$
+    volumes:
+      - C:\Faisal\ContainerDevelopment\GettingStartedWithContainers\GettingStartedWithContainers:C:\app
+      - C:\Users\fmustaf\onecoremsvsmon:C:\remote_debugger:ro
+      #- $nuget_user_folder_gettingstartedwithcontainers$:C:\.nuget\packages:ro
+#$nuget_fallback_packages_volume_mapping_gettingstartedwithcontainers$
+    entrypoint: powershell -Command [System.Threading.Thread]::Sleep([System.Threading.Timeout]::Infinite)
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "C:\\Program Files\\dotnet\\dotnet.exe"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_gettingstartedwithcontainers$ bin/Debug/netcoreapp1.1/GettingStartedWithContainers.dll"
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "powershell -Command if ((Get-Process dotnet -ErrorAction SilentlyContinue).Count -gt 0) { Stop-Process -Name dotnet }"
