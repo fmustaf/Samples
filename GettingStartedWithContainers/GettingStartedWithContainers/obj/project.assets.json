@@ -9770,7 +9770,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fmustaf\\.nuget\\packages\\": {}
+    "C:\\Users\\faisalm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -9778,27 +9778,35 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Faisal\\ContainerDevelopment\\GettingStartedWithContainers\\GettingStartedWithContainers\\GettingStartedWithContainers.csproj",
+      "projectUniqueName": "C:\\Users\\faisalm\\Source\\Repos\\Samples\\GettingStartedWithContainers\\GettingStartedWithContainers\\GettingStartedWithContainers.csproj",
       "projectName": "GettingStartedWithContainers",
-      "projectPath": "C:\\Faisal\\ContainerDevelopment\\GettingStartedWithContainers\\GettingStartedWithContainers\\GettingStartedWithContainers.csproj",
-      "packagesPath": "C:\\Users\\fmustaf\\.nuget\\packages\\",
-      "outputPath": "C:\\Faisal\\ContainerDevelopment\\GettingStartedWithContainers\\GettingStartedWithContainers\\obj\\",
+      "projectPath": "C:\\Users\\faisalm\\Source\\Repos\\Samples\\GettingStartedWithContainers\\GettingStartedWithContainers\\GettingStartedWithContainers.csproj",
+      "packagesPath": "C:\\Users\\faisalm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\faisalm\\Source\\Repos\\Samples\\GettingStartedWithContainers\\GettingStartedWithContainers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fmustaf\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\faisalm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
