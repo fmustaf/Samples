@@ -1,0 +1,51 @@
+
+
+https://github.com/Azure/fta-customerfacingapps/blob/master/containerizeecommercesite/article/eShopOnWeb.md
+
+Application ID OR Client ID:147285a1-b99d-4d4a-aa7f-847a32f8e59b
+Sign ON URL: http://mvcappwithauth.azurewebsites.net/
+Confusion, Redirect URL?
+Dir ID OR Tenant ID: ba2e7fc9-5ec9-4e6e-bc9a-bf99958be8cc
+Domain: FaisalMsdn.onmicrosoft.com 
+demofaisal@FaisalMsdn.onmicrosoft.com 
+Pufa1255
+
+Client Secret or Key:
+3K/DuwmHGJikT0CvVrgFOpfjX+hfLVvsIGOIpM+7ZsA=
+
+**********************************************************
+NEXT, IMPLEMENT THE SIGN IN AND SIGN OUT ON THE MVC APP!!
+**********************************************************
+Added Azure AD through the connected services experience in Visual Studio
+
+Setting the project property 'SSL Enabled' to 'True'.
+Azure application reply URL: http://mvcappwithauth.azurewebsites.net/
+Adding Azure application user-delegated permission to read directory data.
+Changing web.config setting: ida:ClientId=147285a1-b99d-4d4a-aa7f-847a32f8e59b
+Changing web.config setting: ida:AADInstance=https://login.microsoftonline.com/
+Changing web.config setting: ida:ClientSecret=3K/DuwmHGJikT0CvVrgFOpfjX+hfLVvsIGOIpM+7ZsA=
+Changing web.config setting: ida:Domain=FaisalMSDN.onmicrosoft.com
+Changing web.config setting: ida:TenantId=ba2e7fc9-5ec9-4e6e-bc9a-bf99958be8cc
+Changing web.config setting: ida:PostLogoutRedirectUri=http://mvcappwithauth.azurewebsites.net/
+Added SQL connection string 'DefaultConnection'
+Installing NuGet package 'Microsoft.Owin' version 4.0.0.
+Installing NuGet package 'Microsoft.Owin.Host.SystemWeb' version 4.0.0.
+Installing NuGet package 'Microsoft.Owin.Security' version 4.0.0.
+Installing NuGet package 'Owin' version 1.0.
+Installing NuGet package 'System.IdentityModel.Tokens.Jwt' version 5.2.1.
+Installing NuGet package 'Microsoft.IdentityModel.Protocol.Extensions' version 1.0.4.403061554.
+Installing NuGet package 'Microsoft.Owin.Security.Cookies' version 4.0.0.
+Installing NuGet package 'Microsoft.Owin.Security.OpenIdConnect' version 4.0.0.
+Installing NuGet package 'EntityFramework' version 6.2.0.
+Installing NuGet package 'Microsoft.Azure.ActiveDirectory.GraphClient' version 2.1.1.
+.
+.
+.
+[7/11/2018 12:02:05.099 AM] Added the following file to the project: Models\ApplicationDbContext.cs
+[7/11/2018 12:02:06.038 AM] Added the following file to the project: Views\Shared\_LoginPartial.cshtml
+[7/11/2018 12:02:07.057 AM] Added the following file to the project: Views\UserProfile\Index.cshtml
+[7/11/2018 12:02:07.895 AM] Added the following file to the project: Views\UserProfile\Relogin.cshtml
+[7/11/2018 12:02:08.708 AM] Added the following file to the project: Views\Account\SignOutCallback.cshtml
+[7/11/2018 12:02:09.862 AM] Added the following file to the project: Startup.cs
+[7/11/2018 12:02:11.189 AM] Successfully added Azure AD Authentication to the project.
+Installing NuGet package 'Microsoft.IdentityModel.Clients.ActiveDirectory' version 3.19.2.
